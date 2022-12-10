@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./syle.css">
+    <title>CEP</title>
+
+</head>
+<body>
+    
+<main class="container">
+    
+    <form >
+        <div class="visivel"> <h1>Preencha seu CEP!</h1>
+            <p>Cep:<input type="text" id="cep" placeholder=" 83605030"></p> 
+           
+           <p><input type="button" value="Obter" id="btn"> </p>
+           <div class="loader"></div>
+        </div>
+       
+
+   <div class="invisible">
+
+    <p>Complemento:<textarea id="complemento"></textarea></p>
+   <p>Logradouro:<textarea id="logradouro" disabled></textarea></p>
+   <p>Bairro:<input type="text" id="bairro" disabled></p>
+   <p>Localidade:<input type="text" id="localidade" disabled></p>
+   <p>UF:<input type="text" id="uf" disabled></p>
+  <p> <input type="reset" id="reset" value="Redefinir"> </p>
+   </div>
+   
+   </form>
+</main>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
