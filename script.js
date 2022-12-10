@@ -20,12 +20,12 @@ fetch(url).then(resposta=>{
     localidade.value = data.localidade;
     uf.value = data.uf;
 }).catch(err=>{
-    alert(err)
+    alert("Local não encontrado")
     logradouro.value = ""
     bairro.value = ""
     localidade.value = ""
     uf.value = "";
-    inviseble.style.display="none"
+    
   
 });
 
