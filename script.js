@@ -10,7 +10,7 @@ let inviseble = document.querySelector('.invisible')
 let loader = document.querySelector('.loader')
 
 btn.addEventListener('click',()=>{
-    let url = `http://viacep.com.br/ws/${cep.value}/json/`;
+    let url = `https://viacep.com.br/ws/${cep.value}/json/`;
    
 fetch(url).then(resposta=>{
     return resposta.json();
